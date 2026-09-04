@@ -1,0 +1,65 @@
+.gallery { background: #ddd9cf; color: #151515; min-height: 100vh; }
+.picker { min-height: 230px; padding: 32px clamp(20px, 5vw, 72px); display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px 60px; background: #171717; color: #f7f4eb; }
+.picker span { color: #b7ff3c; font: 700 11px/1 monospace; letter-spacing: .12em; }
+.picker h1 { font: 400 clamp(34px, 5vw, 68px)/.95 Georgia, serif; letter-spacing: -.045em; margin: 16px 0 0; }
+.picker nav { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 10px; }
+.picker nav a { color: inherit; text-decoration: none; border-bottom: 1px solid #666; padding: 7px 0; width: 100%; font-weight: 700; }
+.picker p { color: #a9aaa5; max-width: 680px; margin: 0; font-size: 13px; }
+.concept { width: min(1480px, calc(100% - 32px)); min-height: 860px; margin: 36px auto; position: relative; overflow: hidden; box-shadow: 0 20px 60px #0002; }
+.caption { position: absolute; bottom: 14px; left: 18px; margin: 0; font: 600 11px/1.4 monospace; opacity: .58; }
+
+.observatory { background: #f2efe4; color: #1a241f; padding: 0 44px 70px; font-family: Arial, sans-serif; }
+.obsNav { height: 84px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #718078; }
+.obsNav>b { font: 800 27px Arial; letter-spacing: -.08em; }
+.obsNav div { display: flex; align-items: center; gap: 30px; }
+.obsNav a { color: inherit; text-decoration: none; text-transform: uppercase; font-size: 11px; letter-spacing: .08em; }
+.obsNav a:last-child { background: #1a241f; color: #f2efe4; padding: 13px 16px; }
+.obsHero { padding: 70px 0 48px; }
+.kicker { color: #d95137; font: 800 10px monospace; letter-spacing: .14em; }
+.obsHero h2 { font: 400 clamp(54px, 8.5vw, 126px)/.8 Georgia, serif; letter-spacing: -.07em; margin: 31px 0 40px; }
+.obsHero h2 i { color: #d95137; font-weight: 400; }
+.obsIntro { display: flex; justify-content: space-between; align-items: end; border-top: 1px solid #718078; padding-top: 20px; }
+.obsIntro p { font: 400 19px/1.45 Georgia, serif; max-width: 580px; margin: 0; }
+.obsIntro span { text-align: right; font: 700 10px/1.7 monospace; }
+.obsTicker { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #1a241f; background: #d8ff70; }
+.obsTicker span { padding: 18px; border-right: 1px solid #1a241f; font: 700 10px monospace; }
+.obsTicker b { display: block; font: 400 24px Georgia, serif; margin-top: 8px; }
+.obsGrid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; border-bottom: 1px solid #718078; }
+.obsGrid article { padding: 30px 28px 30px 0; border-right: 1px solid #718078; }
+.obsGrid article+article { padding-left: 28px; }
+.obsGrid small { font: 800 10px monospace; color: #d95137; }
+.obsGrid h3 { font: 400 28px/1.1 Georgia, serif; margin: 18px 0 0; }
+.obsGrid p { font-size: 13px; line-height: 1.55; }
+.obsFlow { display: grid; grid-template-columns: repeat(4, 1fr); padding-top: 26px; }
+.obsFlow div { display: flex; gap: 14px; font: 700 12px monospace; }
+.obsFlow b { color: #d95137; }
+
+.control { background: #050706; color: #e7f1e8; min-height: 850px; padding: 0 24px 70px; font-family: monospace; border: 1px solid #b9ff38; }
+.controlNav { height: 70px; display: grid; grid-template-columns: 1fr 1fr auto; align-items: center; border-bottom: 1px solid #394039; font-size: 11px; }
+.controlNav div { font-weight: 800; }.controlNav div i,.radar p i { width: 8px; height: 8px; background: #b9ff38; display: inline-block; border-radius: 50%; box-shadow: 0 0 12px #b9ff38; }
+.controlNav span { color: #79867d; }.controlNav a { color: #050706; background: #b9ff38; text-decoration: none; padding: 12px; font-weight: 900; }
+.controlGrid { display: grid; grid-template-columns: 1.5fr .8fr; padding-top: 34px; }
+.controlHero { min-height: 470px; border: 1px solid #394039; padding: 36px; background: linear-gradient(135deg, #0b100d, #050706); }
+.terminal { color: #b9ff38; font-size: 11px; }
+.controlHero h2 { font: 800 clamp(47px, 7vw, 98px)/.87 Arial, sans-serif; letter-spacing: -.065em; margin: 66px 0 24px; }.controlHero h2 strong { color: #b9ff38; }
+.controlHero p { max-width: 540px; color: #9ca69e; font: 14px/1.6 monospace; }
+.controlCta { color: #b9ff38; display: flex; justify-content: space-between; width: min(360px, 100%); border-bottom: 1px solid #b9ff38; margin-top: 35px; padding: 10px 0; text-decoration: none; font-size: 12px; }
+.radar { border: 1px solid #394039; display: grid; place-items: center; background: repeating-radial-gradient(circle, transparent 0 38px, #233025 39px 40px); }
+.radarRing { width: 230px; height: 230px; border: 1px solid #b9ff38; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 50px #b9ff3818, 0 0 30px #b9ff3815; }
+.radarRing div { text-align: center; }.radarRing b { display: block; color: #b9ff38; font: 700 45px Arial; }.radarRing span { font-size: 9px; letter-spacing: .15em; }
+.radar p { font-size: 10px; color: #b9ff38; }
+.telemetry { border: 1px solid #394039; padding: 18px; display: flex; align-items: baseline; gap: 15px; }.telemetry span { color: #7f8b82; font-size: 9px; }.telemetry b { font: 700 23px Arial; }.telemetry em { color: #b9ff38; font-size: 9px; margin-left: auto; }
+.controlFlow { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 24px; border: 1px solid #394039; }
+.controlFlow div { padding: 22px; border-right: 1px solid #394039; display: grid; gap: 16px; }.controlFlow span,.controlFlow i { color: #758078; font-size: 9px; }.controlFlow b { font-size: 12px; }.controlFlow i { color: #b9ff38; }
+
+.exchange { background: #f5eeda; color: #101010; min-height: 870px; font-family: Arial, sans-serif; border: 3px solid #101010; }
+.exchangeNav { height: 90px; display: flex; justify-content: space-between; align-items: center; padding: 0 28px; border-bottom: 3px solid #101010; }.exchangeNav>b { line-height: .85; }.exchangeNav div { display: flex; gap: 35px; font-size: 11px; font-weight: 800; }.exchangeNav a { color: #fff; background: #1746db; padding: 15px 22px; text-decoration: none; font-weight: 900; }
+.exchangeHero { min-height: 445px; display: grid; grid-template-columns: 1fr 310px; background: #ff5a3d; border-bottom: 3px solid #101010; padding: 40px 28px; gap: 30px; }
+.exchangeHero>div>p { font: 800 11px monospace; }.exchangeHero h2 { font: 900 clamp(60px, 10vw, 140px)/.73 Arial; letter-spacing: -.09em; margin: 68px 0 0; }.exchangeHero h2 i { color: #f5eeda; }
+.exchangeHero aside { background: #f5eeda; border: 3px solid #101010; padding: 22px; transform: rotate(2deg); box-shadow: 9px 9px 0 #101010; }.exchangeHero aside span,.exchangeHero aside small { font: 800 10px monospace; }.exchangeHero aside>b { display: block; color: #1746db; font-size: 88px; letter-spacing: -.08em; margin-top: 45px; }.exchangeHero aside p { font-weight: 900; line-height: 1.8; }
+.exchangeStatement { display: grid; grid-template-columns: 150px 1fr 250px; gap: 30px; padding: 34px 28px; }.exchangeStatement>p { font: 800 10px monospace; }.exchangeStatement h3 { font-size: clamp(24px, 4vw, 49px); line-height: .98; letter-spacing: -.05em; margin: 0; }.exchangeStatement div { display: grid; gap: 12px; border-left: 2px solid; padding-left: 20px; font-size: 12px; }.exchangeStatement div b { color: #1746db; }
+.exchangeMarquee { border-top: 3px solid #101010; border-bottom: 3px solid #101010; background: #1746db; color: #fff; white-space: nowrap; overflow: hidden; padding: 16px 0; font-size: 22px; font-weight: 900; word-spacing: 18px; }
+
+@media (max-width: 760px) {
+  .picker { grid-template-columns: 1fr; }.concept { width: calc(100% - 14px); margin: 16px auto; min-height: 900px; }.observatory { padding: 0 16px 65px; }.obsNav div { gap: 12px; }.obsHero { padding-top: 45px; }.obsIntro { align-items: start; gap: 20px; }.obsTicker,.obsGrid,.obsFlow,.controlFlow { grid-template-columns: 1fr 1fr; }.obsGrid article { border-bottom: 1px solid #718078; }.controlNav { grid-template-columns: 1fr auto; }.controlNav span { display: none; }.controlGrid { grid-template-columns: 1fr; }.controlHero { min-height: 430px; padding: 22px; }.radar { min-height: 340px; }.exchangeNav div { display: none; }.exchangeHero { grid-template-columns: 1fr; }.exchangeHero aside { width: min(300px, 90%); }.exchangeStatement { grid-template-columns: 1fr; }.exchangeStatement div { border-left: 0; border-top: 2px solid; padding: 15px 0 0; }
+}

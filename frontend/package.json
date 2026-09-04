@@ -1,0 +1,23 @@
+{
+  "name": "rebalance-rights-console",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint .",
+    "slides": "node generate-slides.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "viem": "2.55.16"
+  },
+  "devDependencies": {
+    "@types/node": "24.5.2",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "pptxgenjs": "^4.0.1",
+    "typescript": "5.9.2"
+  }
+}

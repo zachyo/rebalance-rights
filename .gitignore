@@ -1,0 +1,21 @@
+# Local credentials and environment-specific deployment settings
+.env
+.env.*
+!.env.example
+
+# Foundry output and transaction history
+broadcast/
+cache/
+contracts/out/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+
+# Dependencies are installed from the documented Foundry commands.
+/lib/
+
+# Local recordings and OS files
+*.mp4
+.DS_Store
